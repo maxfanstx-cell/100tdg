@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Omniverse</title>
+  <link rel="stylesheet" href="style.css" />
+
+    <!-- Favicon desde WordPress -->
+<link rel="icon" type="image/png" href="https://omniverse07.wordpress.com/wp-content/uploads/2024/10/9-sin-titulo_20241008220252.png?w=128&h=128">
+  
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="https://omniverse07.wordpress.com/wp-content/uploads/2024/10/9-sin-titulo_20241008220252.png?w=128&h=128" alt="Logo" class="logo" />
+      <span class="logo-text">Omniverse</span>
+    </div>
+    <button id="menu-toggle">☰</button>
+  </header>
+
+  <nav id="menu">
+    <ul>
+      <li><a href="catalogo.html">Animes</a></li>
+      <li><a href="CataPelis.html">Películas</a></li>
+      <li><a href="cataSerie.html">Series</a></li>
+      <li><a href="buscador.html">Buscar</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="hero">
+      <img class="hero-banner" src="https://omniverse07.wordpress.com/wp-content/uploads/2024/10/yt5s.com-owari-no-seraphe3808camve3808denemy-online-video-cutter.com_.gif" alt="Banner animado" />
+      <p>Descubre las páginas oficiales de Omniverse. Contenido en español latino.</p>
+
+      <div class="download-wrapper">
+        <h2 class="download-title">Download</h2>
+        <a href="https://mega.io/es/" class="download-btn">App For Android</a>
+      </div>
+    </section>
+
+    <section class="mas-nuevos">
+      <h2>Más Nuevos</h2>
+      <div class="video-grid">
+        <div class="video-card">
+          <iframe src="https://www.youtube.com/embed/pg5_hr4ac-U" title="Infinity Train" allowfullscreen></iframe>
+          <h3>Infinity Train</h3>
+          <p>Completo en español</p>
+        </div>
+        <div class="video-card">
+          <iframe src="https://www.youtube.com/embed/NtzDAmRhD9s" title="Owari no Seraph" allowfullscreen></iframe>
+          <h3>Owari no Seraph</h3>
+          <p>Completo en español Castellano</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById('menu-toggle').onclick = () => {
+      document.getElementById('menu').classList.toggle('visible');
+    };
+  </script>
+</body>
+</html>
