@@ -399,6 +399,7 @@ a {
   background-color: #F5BB27;
 }
 
+
 /* BOTON CANAL */
 
 .canal-button{
@@ -408,6 +409,8 @@ a {
 
 .canal-btn{
   display:inline-block;
+
+  /* MISMAS PROPORCIONES QUE DISCORD */
   padding:16px 40px;
 
   background-color:#A7F2EF;
@@ -419,16 +422,14 @@ a {
   border-radius:10px;
   text-decoration:none;
 
+  /* MISMO ESTILO DE SOMBRA */
   box-shadow:0 0 15px #A7F2EF;
 
-  transition:
-  background-color 0.3s ease,
-  transform 0.3s ease,
-  box-shadow 0.3s ease;
+  /* MISMA TRANSICION */
+  transition:background-color 0.3s ease;
 }
 
 .canal-btn:hover{
   background-color:#8BE8E4;
-  transform:scale(1.05);
   box-shadow:0 0 20px #8BE8E4;
 }
