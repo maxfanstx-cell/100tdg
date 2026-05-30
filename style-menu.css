@@ -422,14 +422,24 @@ a {
   border-radius:10px;
   text-decoration:none;
 
-  /* MISMO ESTILO DE SOMBRA */
+  /* SOMBRA */
   box-shadow:0 0 15px #A7F2EF;
 
-  /* MISMA TRANSICION */
-  transition:background-color 0.3s ease;
+  /* TRANSICIONES */
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
+/* HOVER PC */
 .canal-btn:hover{
-  background-color:#8BE8E4;
-  box-shadow:0 0 20px #8BE8E4;
+  background-color:#4CE6D7;
+  transform:scale(1.05);
+  box-shadow:0 0 20px #4CE6D7;
+}
+
+/* CLICK / TAP MOVIL */
+.canal-btn:active{
+  transform:scale(0.97);
 }
